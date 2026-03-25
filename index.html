@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salvemos el Planeta - GreenTech</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <img src="img/bosque-optimizado.jpg" alt="" loading="lazy" />
+    </div>
+
+    <h1 class="hero__title">Salvemos el Planeta</h1>
+    <p class="hero__subtitle">
+      Únete a la revolución verde de GreenTech. Pequeñas decisiones en el código, grandes impactos en el planeta.
+    </p>
+
+    <button class="btn-eco" type="button">
+      <span class="btn-eco__icon" aria-hidden="true">🌱</span>
+      <span>Quiero ayudar</span>
+    </button>
+  </main>
+
+  <footer>
+    GreenTech Solutions &copy; <span id="year"></span> · Código ligero, impacto real.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
