@@ -86,7 +86,8 @@ Puntos clave para la presentación:
 - La web ahora pesa diez veces menos  
 - Se han eliminado todas las dependencias innecesarias  
 - El diseño sigue siendo atractivo sin sacrificar sostenibilidad  
-- El MVP ahora es coherente con el mensaje “Salvemos el Planeta”  
+- El MVP ahora es coherente con el mensaje “Salvemos el Planeta”
+  
 
 ---
 
