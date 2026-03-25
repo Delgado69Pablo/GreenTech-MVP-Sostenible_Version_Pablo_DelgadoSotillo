@@ -65,8 +65,7 @@ Si el software permite que un móvil dure uno o dos años más, se reduce signif
 
 ## Tecnologías Utilizadas
 - HTML5  
-- CSS3 nativo  
-- JavaScript nativo  
+- CSS3 nativo   
 - Sin frameworks, sin librerías externas  
 
 ---
