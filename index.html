@@ -4,32 +4,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Salvemos el Planeta - GreenTech</title>
+  <meta name="description" content="Únete a la revolución verde de GreenTech y ayuda a salvar el planeta con tecnología sostenible." />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-  <main class="hero">
-    <div class="hero__bg" aria-hidden="true">
-      <img src="img/bosque-optimizado.jpg" alt="" loading="lazy" />
+  <header class="hero">
+    <picture class="hero-media">
+      <!-- Versión más ligera de la imagen para móviles -->
+      <source
+        srcset="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=900&q=60"
+        media="(max-width: 768px)"
+      />
+      <!-- Versión algo mayor para pantallas grandes -->
+      <img
+        src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1600&q=70"
+        alt="Bosque verde visto desde arriba"
+        loading="lazy"
+        class="hero-image"
+      />
+    </picture>
+
+    <div class="hero-content">
+      <h1>Salvemos el planeta</h1>
+      <p>Únete a la revolución verde de GreenTech y reduce el impacto ambiental del software.</p>
+      <button class="btn-eco" type="button">
+        <span>Quiero ayudar</span>
+      </button>
     </div>
+  </header>
 
-    <h1 class="hero__title">Salvemos el Planeta</h1>
-    <p class="hero__subtitle">
-      Únete a la revolución verde de GreenTech. Pequeñas decisiones en el código, grandes impactos en el planeta.
-    </p>
-
-    <button class="btn-eco" type="button">
-      <span class="btn-eco__icon" aria-hidden="true">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 2C10 5 7 7 4 8C4 14 8 20 12 22C16 20 20 14 20 8C17 7 14 5 12 2Z"/>
-        </svg>
-      </span>
-      <span>Quiero ayudar</span>
-    </button>
+  <main class="info">
+    <section class="info-block">
+      <h2>Software ligero, planeta más fresco</h2>
+      <p>
+        Cada kilobyte que ahorramos reduce el tráfico de datos, el consumo energético en centros de datos
+        y el calor generado en los dispositivos de los usuarios. Un diseño eficiente alarga la vida útil del hardware.
+      </p>
+    </section>
   </main>
 
-  <footer>
-    GreenTech Solutions &copy; <span id="year"></span> · Código ligero, impacto real.
+  <footer class="site-footer">
+    <p id="footer-text">GreenTech Solutions &copy; <span id="year"></span> - Haciendo un mundo mejor sin calentar tu CPU</p>
   </footer>
 </body>
 </html>
